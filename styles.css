@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-origin: border-box;
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border-radius: 15px;
+    background-color: white;
+    width: 350px;
+    height: 400px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Background */
+
+.bg {
+    position: absolute;
+}
+
+.pattern-top {
+
+}
+
+.pattern-bottom {
+    top: 350px;
+}
+
+.pfp {
+    border-radius: 50%;
+    border: white;
+    border-width: 5px;
+}
+
+
+
+/* Footer */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
