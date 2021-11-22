@@ -23,12 +23,32 @@ p {
     width: 350px;
     height: 380px;
     overflow: hidden;
+    box-shadow: 0 0 20px #0000005d;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-top: -190px;
+    margin-right: -175px;
 }
 
 /* Background */
 
-.bgImg {
+.bgImgs {
     z-index: -1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg-top {
+    position: relative;
+    bottom: 500px;
+}
+
+.bg-bot {
+    position: relative;
+    top: 500px;
 }
 
 /* Card Images */
@@ -44,14 +64,17 @@ p {
     right: 50%;
     margin-top: -106px;
     margin-right: -53px;
-
 }
 
 /* Info */
 
+.age{
+    font-size: 18px;
+    margin: 7px;
+}
+
 .i {
-    display: inline-block;
-    margin: auto 10px;
+    display: block;
 }
 
 .category{
@@ -60,12 +83,27 @@ p {
 
 .info {
     height: 150px;
-    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    margin: auto;
 }
 
 .location {
-    margin: auto;
-    display: block;
+    position: relative;
+    bottom: 75px;
+    left: 115px;
+    font-size: 15px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
 }
 
 .stat {
