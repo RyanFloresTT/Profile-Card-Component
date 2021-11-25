@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component--jG7y7wrw](https://www.frontendmentor.io/solutions/profile-card-component--jG7y7wrw)
 - Live Site URL: [https://profile-card-component-henna-one.vercel.app/](https://profile-card-component-henna-one.vercel.app/)
 
 ## Author

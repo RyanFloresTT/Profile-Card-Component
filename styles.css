@@ -7,6 +7,12 @@ body {
     font-size: 12px;
 }
 
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
 h2 {
     font-weight: 700;
     color: hsl(229, 23%, 23%);
